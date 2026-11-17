@@ -2,7 +2,7 @@
 
 An interactive **Power BI** report that explores grocery order behavior on Instacart: what customers buy, when they buy it, how big their baskets are, and which products are bought together (using association-rule machine learning).
 
-![Homepage]("C:\Users\Mico\Downloads\page_01_homepage.png")
+![Homepage]
 <img width="1522" height="880" alt="page_01_homepage" src="https://github.com/user-attachments/assets/437a47b0-06f4-4dac-b46a-447c33bfefaa" />
 
 > **Course / Task:** IT0105 – Finals
@@ -30,7 +30,8 @@ Instacart is a U.S.-based grocery delivery and retail media company, founded in 
 
 With thousands of products across multiple departments, **how can we identify which items drive the most orders and customer engagement?**
 
-![Background]("C:\Users\Mico\Downloads\page_02_background.png)
+![Background]<img width="1522" height="880" alt="page_02_background" src="https://github.com/user-attachments/assets/025fc3f3-cca5-4619-a0e9-ee084dc19e6f" />
+
 
 ## ✅ Objectives
 
