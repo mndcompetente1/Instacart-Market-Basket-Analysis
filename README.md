@@ -2,7 +2,7 @@
 
 An interactive **Power BI** report that explores grocery order behavior on Instacart: what customers buy, when they buy it, how big their baskets are, and which products are bought together (using association-rule machine learning).
 
-![Homepage](images/page_01_homepage.png)
+![Homepage](downloads/page_01_homepage.png)
 
 > **Course / Task:** IT0105 – Finals
 > **File:** `Finals_IT0105.pbix`
@@ -29,7 +29,7 @@ Instacart is a U.S.-based grocery delivery and retail media company, founded in 
 
 With thousands of products across multiple departments, **how can we identify which items drive the most orders and customer engagement?**
 
-![Background](images/page_02_background.png)
+![Background](downloads/page_02_background.png)
 
 ## ✅ Objectives
 
@@ -38,7 +38,7 @@ With thousands of products across multiple departments, **how can we identify wh
 - Provide actionable insights for **inventory management and marketing strategies**.
 - Build a **dashboard** that allows stakeholders to explore product performance interactively.
 
-![Objectives](images/page_03_objectives.png)
+![Objectives](downloads/page_03_objectives.png)
 
 ---
 
@@ -46,7 +46,7 @@ With thousands of products across multiple departments, **how can we identify wh
 
 The data follows the Instacart relational schema: orders, order line items, products, aisles, and departments.
 
-![Entity Relationship Diagram](images/erd_schema.png)
+![Entity Relationship Diagram](downloads/erd_schema.png)
 
 **Dataset at a glance**
 
@@ -69,7 +69,7 @@ The data follows the Instacart relational schema: orders, order line items, prod
 
 **Custom measures:** *Sum of Orders*, *Unique Customers*, *Unique Products*, *Unique Departments*, and *% Orders per Dept*.
 
-![Data Set and Data Model](images/page_04_data_model.png)
+![Data Set and Data Model](downloads/page_04_data_model.png)
 
 ---
 
@@ -82,22 +82,22 @@ The report has 11 pages with a custom green theme, a home button on every page, 
 ### 1️⃣ Main Dashboard
 A summary view with orders by day of week, basket size distribution, and department share of orders by basket size.
 
-![Dashboard](images/page_05_dashboard.png)
+![Dashboard](downloads/page_05_dashboard.png)
 
 ### 2️⃣ Basket Analysis
 Shows how many items customers put in a basket and how the department mix changes as baskets get larger.
 
-![Basket Analysis](images/page_06_basket_analysis.png)
+![Basket Analysis](downloads/page_06_basket_analysis.png)
 
 ### 3️⃣ Department Segmentation
 Ranks departments by orders, shows the top products inside each one, and compares department share across basket sizes.
 
-![Department Segmentation](images/page_07_department_segmentation.png)
+![Department Segmentation](downloads/page_07_department_segmentation.png)
 
 ### 4️⃣ Temporal Patterns
 Looks at when customers order: by day of week, by hour of day, and which departments dominate at each hour.
 
-![Temporal Patterns](images/page_08_temporal_patterns.png)
+![Temporal Patterns](downloads/page_08_temporal_patterns.png)
 
 ---
 
@@ -105,7 +105,7 @@ Looks at when customers order: by day of week, by hour of day, and which departm
 
 To go beyond descriptive charts, I used **market-basket association rule mining** (support and lift) to find products that are frequently bought together. A **lift above 1** means the items appear together more often than chance would suggest.
 
-![Machine Learning](images/page_09_machine_learning.png)
+![Machine Learning](downloads/page_09_machine_learning.png)
 
 ### Overall and by Basket Size
 
@@ -119,7 +119,7 @@ To go beyond descriptive charts, I used **market-basket association rule mining*
 
 ### By Department
 
-![Departmental Rules](images/page_10_departmental_rules.png)
+![Departmental Rules](downloads/page_10_departmental_rules.png)
 
 | Produce | Beverages | Frozen |
 |---|---|---|
@@ -133,7 +133,7 @@ To go beyond descriptive charts, I used **market-basket association rule mining*
 
 ## 🔍 Key Findings
 
-![Findings and Recommendations](images/page_11_conclusion.png)
+![Findings and Recommendations](downloads/page_11_conclusion.png)
 
 1. **Basket size distribution:** most baskets hold **5–15 items**, with a sharp drop after 20+. Small baskets (1–5) are common, but large baskets (11+) still make up a significant share.
 2. **Basket size vs. department mix:**
