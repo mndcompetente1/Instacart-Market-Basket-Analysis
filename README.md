@@ -3,6 +3,7 @@
 An interactive **Power BI** report that explores grocery order behavior on Instacart: what customers buy, when they buy it, how big their baskets are, and which products are bought together (using association-rule machine learning).
 
 ![Homepage]("C:\Users\Mico\Downloads\page_01_homepage.png")
+<img width="1522" height="880" alt="page_01_homepage" src="https://github.com/user-attachments/assets/437a47b0-06f4-4dac-b46a-447c33bfefaa" />
 
 > **Course / Task:** IT0105 – Finals
 > **File:** `Finals_IT0105.pbix`
