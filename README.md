@@ -2,7 +2,7 @@
 
 An interactive **Power BI** report that explores grocery order behavior on Instacart: what customers buy, when they buy it, how big their baskets are, and which products are bought together (using association-rule machine learning).
 
-![Homepage]
+[Homepage]
 <img width="1522" height="880" alt="page_01_homepage" src="https://github.com/user-attachments/assets/437a47b0-06f4-4dac-b46a-447c33bfefaa" />
 
 > **Course / Task:** IT0105 – Finals
@@ -30,7 +30,7 @@ Instacart is a U.S.-based grocery delivery and retail media company, founded in 
 
 With thousands of products across multiple departments, **how can we identify which items drive the most orders and customer engagement?**
 
-![Background]<img width="1522" height="880" alt="page_02_background" src="https://github.com/user-attachments/assets/025fc3f3-cca5-4619-a0e9-ee084dc19e6f" />
+[Background]<img width="1522" height="880" alt="page_02_background" src="https://github.com/user-attachments/assets/025fc3f3-cca5-4619-a0e9-ee084dc19e6f" />
 
 
 ## ✅ Objectives
@@ -40,7 +40,8 @@ With thousands of products across multiple departments, **how can we identify wh
 - Provide actionable insights for **inventory management and marketing strategies**.
 - Build a **dashboard** that allows stakeholders to explore product performance interactively.
 
-![Objectives]("C:\Users\Mico\Downloads\page_03_objectives.png)
+[Objectives]<img width="1522" height="880" alt="page_03_objectives" src="https://github.com/user-attachments/assets/0eebc72c-811c-4994-8647-8d3481bb17f6" />
+
 
 ---
 
@@ -48,7 +49,8 @@ With thousands of products across multiple departments, **how can we identify wh
 
 The data follows the Instacart relational schema: orders, order line items, products, aisles, and departments.
 
-![Entity Relationship Diagram](downloads/erd_schema.png)
+[Entity Relationship Diagram]<img width="987" height="707" alt="erd_schema" src="https://github.com/user-attachments/assets/7069a9fa-abf9-4344-98b5-890d63d1822b" />
+
 
 **Dataset at a glance**
 
@@ -71,7 +73,8 @@ The data follows the Instacart relational schema: orders, order line items, prod
 
 **Custom measures:** *Sum of Orders*, *Unique Customers*, *Unique Products*, *Unique Departments*, and *% Orders per Dept*.
 
-![Data Set and Data Model]("C:\Users\Mico\Downloads\page_04_data_model.png)
+[Data Set and Data Model]<img width="1522" height="880" alt="page_04_data_model" src="https://github.com/user-attachments/assets/d7e1c208-8336-4979-8f36-ad06f0325cbd" />
+
 
 ---
 
@@ -84,22 +87,26 @@ The report has 11 pages with a custom green theme, a home button on every page, 
 ### 1️⃣ Main Dashboard
 A summary view with orders by day of week, basket size distribution, and department share of orders by basket size.
 
-![Dashboard]("C:\Users\Mico\Downloads\page_05_dashboard.png)
+[Dashboard]<img width="1522" height="880" alt="page_05_dashboard" src="https://github.com/user-attachments/assets/a32071f3-a1ff-46c4-9695-79f7a653e4b5" />
+
 
 ### 2️⃣ Basket Analysis
 Shows how many items customers put in a basket and how the department mix changes as baskets get larger.
 
-![Basket Analysis]("C:\Users\Mico\Downloads\page_06_basket_analysis.png)
+[Basket Analysis]<img width="1522" height="880" alt="page_06_basket_analysis" src="https://github.com/user-attachments/assets/106bed4a-274d-44e3-aca1-1e43d37934d4" />
+
 
 ### 3️⃣ Department Segmentation
 Ranks departments by orders, shows the top products inside each one, and compares department share across basket sizes.
 
-![Department Segmentation]("C:\Users\Mico\Downloads\page_07_department_segmentation.png)
+[Department Segmentation]<img width="1522" height="880" alt="page_07_department_segmentation" src="https://github.com/user-attachments/assets/8bdf4fff-b047-4cb6-96dc-ecd919e7bd5e" />
+
 
 ### 4️⃣ Temporal Patterns
 Looks at when customers order: by day of week, by hour of day, and which departments dominate at each hour.
 
-![Temporal Patterns]("C:\Users\Mico\Downloads\page_08_temporal_patterns.png)
+[Temporal Patterns]<img width="1522" height="880" alt="page_08_temporal_patterns" src="https://github.com/user-attachments/assets/3dbeddbc-cd55-449d-ae4a-492ffb367a28" />
+
 
 ---
 
@@ -107,13 +114,14 @@ Looks at when customers order: by day of week, by hour of day, and which departm
 
 To go beyond descriptive charts, I used **market-basket association rule mining** (support and lift) to find products that are frequently bought together. A **lift above 1** means the items appear together more often than chance would suggest.
 
-![Machine Learning]("C:\Users\Mico\Downloads\page_09_machine_learning.png)
+[Machine Learning]<img width="1522" height="880" alt="page_09_machine_learning" src="https://github.com/user-attachments/assets/60779478-89f5-42c3-9f6b-d4518a8d4bc7" />
 
 ### Overall and by Basket Size
 
 | High Support + High Lift | Small vs. Large Baskets |
 |---|---|
-| ![Overall](images/ml_high_support_lift.jpg) | ![Basket size](images/ml_basket_size_rules.jpg) |
+
+[Overall]<img width="831" height="387" alt="ml_high_support_lift" src="https://github.com/user-attachments/assets/1f761663-a9db-4990-9739-a90e95fda20f" /> | ![Basket size]<img width="1060" height="721" alt="ml_basket_size_rules" src="https://github.com/user-attachments/assets/61ee5093-6501-4e3b-a511-ff29106e1883" /> |
 
 - **Overall:** Organic bananas ↔ Organic Hass avocados is the strongest pair (lift ≈ 2.6).
 - **Small baskets:** bananas ↔ avocados (lift ≈ 4.4).
@@ -121,7 +129,8 @@ To go beyond descriptive charts, I used **market-basket association rule mining*
 
 ### By Department
 
-![Departmental Rules]("C:\Users\Mico\Downloads\page_10_departmental_rules.png)
+[Departmental Rules]<img width="1522" height="880" alt="page_10_departmental_rules" src="https://github.com/user-attachments/assets/f53f05a1-b5f4-4eb0-8fcd-b549ec299cf9" />
+
 
 | Produce | Beverages | Frozen |
 |---|---|---|
