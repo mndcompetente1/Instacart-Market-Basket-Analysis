@@ -134,7 +134,9 @@ To go beyond descriptive charts, I used **market-basket association rule mining*
 
 | Produce | Beverages | Frozen |
 |---|---|---|
-| ![Produce]<img width="917" height="355" alt="ml_rules_produce" src="https://github.com/user-attachments/assets/a1174ace-6f35-4adb-92c3-b978e825fce5" /> | ![Beverages](images/ml_rules_beverages.jpg) | ![Frozen](images/ml_rules_frozen.jpg) |
+| [Produce]<img width="917" height="355" alt="ml_rules_produce" src="https://github.com/user-attachments/assets/a1174ace-6f35-4adb-92c3-b978e825fce5" /> | [Beverages]<img width="917" height="355" alt="ml_rules_produce" src="https://github.com/user-attachments/assets/6e4830af-bfb2-4cbd-b5e5-c87c650e5242" />
+ | [Frozen]<img width="975" height="362" alt="ml_rules_frozen" src="https://github.com/user-attachments/assets/bda90991-252f-4528-ad47-6c7467dcd6a5" />
+ |
 
 - **Produce:** bananas ↔ raspberries and bananas ↔ avocados are the strongest pairs.
 - **Beverages:** sparkling water flavors are bought together (lift up to ≈ 6).
