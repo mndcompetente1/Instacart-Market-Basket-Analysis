@@ -121,7 +121,7 @@ To go beyond descriptive charts, I used **market-basket association rule mining*
 | High Support + High Lift | Small vs. Large Baskets |
 |---|---|
 
-[Overall]<img width="831" height="387" alt="ml_high_support_lift" src="https://github.com/user-attachments/assets/1f761663-a9db-4990-9739-a90e95fda20f" /> | ![Basket size]<img width="1060" height="721" alt="ml_basket_size_rules" src="https://github.com/user-attachments/assets/61ee5093-6501-4e3b-a511-ff29106e1883" /> |
+<img width="831" height="387" alt="ml_high_support_lift" src="https://github.com/user-attachments/assets/1f761663-a9db-4990-9739-a90e95fda20f" /> | ![Basket size]<img width="1060" height="721" alt="ml_basket_size_rules" src="https://github.com/user-attachments/assets/61ee5093-6501-4e3b-a511-ff29106e1883" />
 
 - **Overall:** Organic bananas ↔ Organic Hass avocados is the strongest pair (lift ≈ 2.6).
 - **Small baskets:** bananas ↔ avocados (lift ≈ 4.4).
