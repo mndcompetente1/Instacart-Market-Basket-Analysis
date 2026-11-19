@@ -36,7 +36,7 @@ With thousands of products across multiple departments, **how can we identify wh
 ## ✅ Objectives
 
 - Identify **top-selling products per department**.
-- Understand **customer purchasing behavior** (e.g., staples vs. impulse buys).
+- Understand **customer purchasing behavior**.
 - Provide actionable insights for **inventory management and marketing strategies**.
 - Build a **dashboard** that allows stakeholders to explore product performance interactively.
 
