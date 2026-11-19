@@ -132,11 +132,15 @@ To go beyond descriptive charts, I used **market-basket association rule mining*
 [Departmental Rules]<img width="1522" height="880" alt="page_10_departmental_rules" src="https://github.com/user-attachments/assets/f53f05a1-b5f4-4eb0-8fcd-b549ec299cf9" />
 
 
-| Produce | Beverages | Frozen |
-|---|---|---|
-| [Produce]<img width="917" height="355" alt="ml_rules_produce" src="https://github.com/user-attachments/assets/a1174ace-6f35-4adb-92c3-b978e825fce5" /> | [Beverages]<img width="917" height="355" alt="ml_rules_produce" src="https://github.com/user-attachments/assets/6e4830af-bfb2-4cbd-b5e5-c87c650e5242" />
- | [Frozen]<img width="975" height="362" alt="ml_rules_frozen" src="https://github.com/user-attachments/assets/bda90991-252f-4528-ad47-6c7467dcd6a5" />
- |
+#### Produce
+[Top 5 Rules - Produce]<img width="917" height="355" alt="ml_rules_produce" src="https://github.com/user-attachments/assets/eac6cc08-a3e7-4d69-a15a-4173a093755d" />
+
+#### Beverages
+[Top 5 Rules - Beverages]<img width="881" height="352" alt="ml_rules_beverages" src="https://github.com/user-attachments/assets/874db479-b726-4b3e-8249-6aa2ad83ecac" />
+
+#### Frozen
+[Top 5 Rules - Frozen]<img width="975" height="362" alt="ml_rules_frozen" src="https://github.com/user-attachments/assets/771ab68b-0333-4ee2-bf26-cd900bc7c7c4" />
+
 
 - **Produce:** bananas ↔ raspberries and bananas ↔ avocados are the strongest pairs.
 - **Beverages:** sparkling water flavors are bought together (lift up to ≈ 6).
@@ -146,7 +150,7 @@ To go beyond descriptive charts, I used **market-basket association rule mining*
 
 ## 🔍 Key Findings
 
-![Findings and Recommendations]("C:\Users\Mico\Downloads\page_11_conclusion.png)
+[Findings and Recommendations]<img width="1522" height="880" alt="page_11_conclusion" src="https://github.com/user-attachments/assets/712b49cf-428c-4324-861d-56ca333080aa" />
 
 1. **Basket size distribution:** most baskets hold **5–15 items**, with a sharp drop after 20+. Small baskets (1–5) are common, but large baskets (11+) still make up a significant share.
 2. **Basket size vs. department mix:**
